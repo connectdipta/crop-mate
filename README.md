@@ -27,7 +27,7 @@
 ## 🚀 Live Demo
 
 Experience CropMate in action:
-[**[YOUR PROJECT LIVE DEMO LINK HERE]**](https://your-cropmate-live-demo.com)
+[**[PROJECT LIVE DEMO LINK HERE]**](https://cropmate-dipta.netlify.app/)
 
 ---
 

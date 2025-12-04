@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_apiKey,
-  authDomain: import.meta.env.VITE_authDomain,
-  projectId: import.meta.env.VITE_projectId,
-  storageBucket: import.meta.env.VITE_storageBucket,
-  messagingSenderId: import.meta.env.VITE_messagingSenderId,
-  appId: import.meta.env.VITE_appId
+  apiKey: "AIzaSyDUKegikFs6cesG4e9EAQD0erQt0csxUi4",
+  authDomain: "cropmate-4d636.firebaseapp.com",
+  projectId: "cropmate-4d636",
+  storageBucket: "cropmate-4d636.firebasestorage.app",
+  messagingSenderId: "156290003218",
+  appId: "1:156290003218:web:62e2fea8b72b1fa51743cb"
 };
 
 // Initialize Firebase
