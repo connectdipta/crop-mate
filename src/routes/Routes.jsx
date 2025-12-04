@@ -3,6 +3,10 @@ import RootLayout from "../layout/RootLayout";
 import Home from "../pages/Home";
 import Coverage from "../pages/Coverage";
 import Hire from "../pages/Hire";
+import AuthLayout from "../layout/AuthLayout";
+import Login from "../pages/Auth/Login";
+import Register from "../pages/Auth/Register";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
   {
@@ -20,8 +24,20 @@ export const router = createBrowserRouter([
         },
         {
             path: "/hire",
-            Component: Hire
+            element: <PrivateRoute><Hire></Hire></PrivateRoute> 
         }
+    ]
+  },
+   {
+    path: "/",
+    Component: AuthLayout,
+    children: [
+      {
+       path: "login", Component: Login
+      },
+      {
+        path: "register", Component: Register
+      }
     ]
   },
 ]);

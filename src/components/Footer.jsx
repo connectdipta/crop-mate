@@ -16,8 +16,8 @@ export default function Footer() {
       </div>
 
       {/* Menu */}
-      <div className="border-t border-gray-700 mt-8 pt-6">
-        <ul className="flex justify-center gap-8 text-sm text-gray-300">
+      <div className="border-t border-gray-700 mt-8 pt-6 ">
+        <ul className="flex justify-center gap-8 max-sm:gap-4 text-sm text-gray-300">
           <li className="hover:text-primary active:scale-95 transition cursor-pointer">Services</li>
           <li className="hover:text-primary active:scale-95 transition cursor-pointer">Coverage</li>
           <li className="hover:text-primary active:scale-95 transition cursor-pointer">About Us</li>
@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
 
       {/* Social Icons */}
-      <div className="mt-6 flex justify-center gap-5">
+      <div className="mt-6 flex justify-center gap-5 ">
         <a className="p-2 rounded-full bg-gray-800 hover:bg-gray-700 active:scale-90 transition" href="#"><FaLinkedinIn size={18} /></a>
         <a className="p-2 rounded-full bg-gray-800 hover:bg-gray-700 active:scale-90 transition" href="#"><FaXTwitter size={18} /></a>
         <a className="p-2 rounded-full bg-gray-800 hover:bg-gray-700 active:scale-90 transition" href="#"><FaFacebookF size={18} /></a>
